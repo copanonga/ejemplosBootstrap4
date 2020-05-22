@@ -19,8 +19,8 @@
 ```
 <div class="card">
     <div class="card-body">
-        <h4 class="card-title">Leyenda</h4>
-        <p class="card-description">Equivalencia de las notas</p>
+        <h4 class="card-title">Título</h4>
+        <p class="card-description">Descripción</p>
         <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item">
                 <a class="nav-link active" 
