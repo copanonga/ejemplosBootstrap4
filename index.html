@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
       <title>Ejemplos Bootstrap 4</title>
-        <meta property="og:title" content="Welcome to GitHub Pages" />
+        <meta property="og:title" content="Ejemplos Bootstrap 4" />
         <meta property="og:locale" content="es_ES" />
         <meta property="og:url" content="https://copanonga.github.io/ejemplosBootstrap4/" />
         <meta property="og:site_name" content="ejemplosBootstrap4" />
@@ -16,26 +16,48 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </head>
   
-  
   <body>
+    
+    <h1>Ejemplos Bootstrap 4</h1>
+    
+    <hr>
+      
+    <div class="container-fluid">
+
+        <h2>Collapse en container fluid</h2>
+
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demoCollapseContainerFluid">Collapse</button>
+
+        <div id="demoCollapseContainerFluid" class="collapse">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+
+    </div>
+    
+    <hr>
+    
+    <div class="container">
+
+        <h2>Collapse en container</h2>
+
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demoCollapseContainer">Collapse</button>
+
+        <div id="demoCollapseContainer" class="collapse">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+
+    </div>
+    
+    <hr>
     
     <div class="container">
       
-      <h1>Ejemplos Bootstrap 4</h1>
-      
-      <h2>Collapse</h2>
-      
-      <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demoCollapse">Collapse</button>
-      
-      <div id="demoCollapse" class="collapse">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </div>
-      
-      <h2>Tabs</h2>
-    
-      <div class="col-sm-12 col-md-8">
+        <h2>Tabs</h2>
+
         <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item">
                 <a class="nav-link active" data-toggle="tab" href="#seccionuno">Sección 1</a>
@@ -52,43 +74,9 @@
                         <h5>
                                 Sección 1
                         </h5>
-                    </div>			
-                    <div class="card-body p-0">		
-
-                        <ul class="nav nav-pills flex-column" role="tablist">
-                                <li class="nav-item">
-                                        <a class="nav-link py-0 active" 
-                                           data-toggle="pill" 
-                                           href="#tema01">Tema 001</a>
-                                </li>
-                                <li class="nav-item">
-                                        <a class="nav-link py-0" 
-                                           data-toggle="pill" 
-                                           href="#tema02">Tema 002</a>
-                                </li>
-                        </ul>
-                        <hr>
-
-                        <div class="tab-content">
-                            <div id="tema01" class="container tab-pane active">
-                                <div class="card my-3">
-                                    <div class="card-body p-1">
-                                        <div class="d-flex">	
-                                                Lorem ipsum dolor sit amet consectetur adipiscing elit facilisi, porttitor vitae tempor ornare class dis facilisis eleifend, felis nibh feugiat curabitur inceptos magnis nascetur. Semper dis mollis euismod lectus eleifend duis augue vel, venenatis integer netus habitant facilisis litora vestibulum, maecenas platea mauris quis auctor penatibus sollicitudin. Urna fermentum enim accumsan convallis lobortis malesuada egestas aenean maecenas, donec posuere iaculis phasellus velit aliquet nostra potenti.
-                                        </div>
-                                    </div>
-                                </div>		
-                            </div>
-                            <div id="tema02" class="container tab-pane fade">
-                                <div class="card my-3">
-                                    <div class="card-body p-1">
-                                        <div class="d-flex">	
-                                                Velit primis facilisi aliquam parturient commodo etiam, eros luctus hendrerit neque. Scelerisque litora sagittis sem nec consequat quis erat id netus semper cursus libero, iaculis enim vitae habitasse massa duis ultricies potenti primis non cras, blandit risus vulputate porttitor orci tristique varius viverra sed mi convallis. Taciti lacinia integer imperdiet mollis duis et vel tortor luctus velit, consequat dui blandit a ultricies eleifend posuere quisque cubilia.
-                                        </div>
-                                    </div>
-                                </div>	
-                            </div>
-                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit facilisi, porttitor vitae tempor ornare class dis facilisis eleifend, felis nibh feugiat curabitur inceptos magnis nascetur. Semper dis mollis euismod lectus eleifend duis augue vel, venenatis integer netus habitant facilisis litora vestibulum, maecenas platea mauris quis auctor penatibus sollicitudin. Urna fermentum enim accumsan convallis lobortis malesuada egestas aenean maecenas, donec posuere iaculis phasellus velit aliquet nostra potenti.</p> 
                     </div>
                 </div>
             </div>
@@ -100,69 +88,54 @@
                         </h5>
                     </div>			
                     <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit facilisi, porttitor vitae tempor ornare class dis facilisis eleifend, felis nibh feugiat curabitur inceptos magnis nascetur. Semper dis mollis euismod lectus eleifend duis augue vel, venenatis integer netus habitant facilisis litora vestibulum, maecenas platea mauris quis auctor penatibus sollicitudin. Urna fermentum enim accumsan convallis lobortis malesuada egestas aenean maecenas, donec posuere iaculis phasellus velit aliquet nostra potenti.</p>
                         <p>Velit primis facilisi aliquam parturient commodo etiam, eros luctus hendrerit neque. Scelerisque litora sagittis sem nec consequat quis erat id netus semper cursus libero, iaculis enim vitae habitasse massa duis ultricies potenti primis non cras, blandit risus vulputate porttitor orci tristique varius viverra sed mi convallis. Taciti lacinia integer imperdiet mollis duis et vel tortor luctus velit, consequat dui blandit a ultricies eleifend posuere quisque cubilia.</p>
                     </div>
                 </div>
             </div>		
         </div>
-      </div>
-      
+              
     </div>
     
-    <div class="row">
-                                                
-        <div class="col-3">
-            <ul class="nav nav-tabs nav-tabs-vertical-custom" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" 
-                       id="home-tab-custom" 
-                       data-toggle="tab" 
-                       href="#dato001" 
-                       role="tab" 
-                       aria-controls="dato001" 
-                       aria-selected="true">
-                    Dato 001
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" 
-                       id="profile-tab-custom" 
-                       data-toggle="tab" 
-                       href="#dato002" 
-                       role="tab" 
-                       aria-controls="dato002" 
-                       aria-selected="false">
-                    Dato 002
-                    </a>
-                </li>
-            </ul>
-        </div>
+    <hr>
+    
+    <div class="container mt-3">
+        
+        <h2>Pills con flex-column vertical</h2>
+        
+        <div class="row">
+        
+            <div class="col-3">
+                <ul class="nav nav-pills flex-column" role="tablist">
+                    <li class="nav-item">
+                            <a class="nav-link active" 
+                               data-toggle="pill" 
+                               href="#tema01">Tema 001</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" 
+                               data-toggle="pill" 
+                               href="#tema02">Tema 002</a>
+                    </li>
+                </ul>
+            </div>
 
-        <div class="col-9">
+            <div class="col-9">
 
-            <div class="tab-content tab-content-vertical tab-content-vertical-custom">
-
-                <div class="tab-pane fade show active" 
-                     id="dato001" 
-                     role="tabpanel" 
-                     aria-labelledby="home-tab-custom">
-                    <p>Dato 001</p>
-                </div>
-
-                <div class="tab-pane fade" 
-                     id="dato002" 
-                     role="tabpanel" 
-                     aria-labelledby="profile-tab-custom">
-                    <p>Dato 002</p>
+                <div class="tab-content">
+                    <div id="tema01" class="tab-pane active">
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit facilisi, porttitor vitae tempor ornare class dis facilisis eleifend, felis nibh feugiat curabitur inceptos magnis nascetur. Semper dis mollis euismod lectus eleifend duis augue vel, venenatis integer netus habitant facilisis litora vestibulum, maecenas platea mauris quis auctor penatibus sollicitudin. Urna fermentum enim accumsan convallis lobortis malesuada egestas aenean maecenas, donec posuere iaculis phasellus velit aliquet nostra potenti.</p> 
+                    </div>
+                    <div id="tema02" class="tab-pane fade">
+                        <p>Velit primis facilisi aliquam parturient commodo etiam, eros luctus hendrerit neque. Scelerisque litora sagittis sem nec consequat quis erat id netus semper cursus libero, iaculis enim vitae habitasse massa duis ultricies potenti primis non cras, blandit risus vulputate porttitor orci tristique varius viverra sed mi convallis. Taciti lacinia integer imperdiet mollis duis et vel tortor luctus velit, consequat dui blandit a ultricies eleifend posuere quisque cubilia.</p>
+                    </div>
                 </div>
 
             </div>
 
         </div>
-
+        
     </div>
     
-  </body>
+</body>
   
 </html>
